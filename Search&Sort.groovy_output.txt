@@ -1,0 +1,6 @@
+C:\Users\Desktop>groovy sample.groovy
+Input (Please enter numbers with spaces):green blue red yellow
+You entered: green blue red yellow
+Search String:red
+Your value found
+Sorted List [blue, green, red, yellow]
