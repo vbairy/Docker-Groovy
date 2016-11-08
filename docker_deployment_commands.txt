@@ -1,0 +1,10 @@
+Dockerfile & SpringDocker.war files are saved in /G/DockerTest folder
+
+Open CLI
+
+$ cd /G
+$ cd DockerTest/
+$ docker build -f Dockerfile -t springdocker .
+$ docker run -p 8080:8080 -t springdocker
+
+http://loclahost:8080  will display the application
