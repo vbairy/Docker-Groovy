@@ -1,0 +1,5 @@
+We can limit RAM allocation with the following command:
+
+docker run -name [container name] -m 256m  -p [to set access and expose ports]  [Image ID]
+
+docker run -it -m 300M --memory-swap 300M ubuntu:14.04 /bin/bash
